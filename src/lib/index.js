@@ -3,7 +3,7 @@ export { default as Accordion } from './accordion/Accordion.svelte';
 export { default as AccordionItem } from './accordion/AccordionItem.svelte';
 
 // Alerts
-export { default as Alert } from './alert/Alert.svelte';
+export { default as Alert } from '$lib/avatar/alert/Alert.svelte';
 
 // Avatar
 export { default as Avatar } from './avatar/Avatar.svelte';

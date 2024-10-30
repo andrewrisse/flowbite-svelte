@@ -2,7 +2,7 @@
   import TransitionFrame from '$lib/utils/TransitionFrame.svelte';
   import type { ComponentProps } from 'svelte';
   import { twMerge } from 'tailwind-merge';
-  import CloseButton from '../utils/CloseButton.svelte';
+  import CloseButton from '../../utils/CloseButton.svelte';
 
   interface $$Props extends ComponentProps<TransitionFrame> {
     defaultClass?: string;
